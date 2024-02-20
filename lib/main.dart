@@ -12,7 +12,7 @@ main() {
         ),
       ),
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
+        primarySwatch: Colors.green,
         useMaterial3: false,
       ),
     ),
