@@ -10,7 +10,7 @@ main() {
         appBar: AppBar(
           title: Text('หน้าแรก'),
         ),
-        body: Text('สวัสดี'),
+        body: Center(child: Text('0')),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             print('กด');
