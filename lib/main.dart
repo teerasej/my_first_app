@@ -4,6 +4,7 @@ main() {
   print("hello world");
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'My App',
       home: Scaffold(
         appBar: AppBar(
