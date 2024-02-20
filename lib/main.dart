@@ -10,6 +10,12 @@ main() {
         appBar: AppBar(
           title: Text('หน้าแรก'),
         ),
+        body: Text('สวัสดี'),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            print('กด');
+          },
+        ),
       ),
       theme: ThemeData(
         primarySwatch: Colors.green,
